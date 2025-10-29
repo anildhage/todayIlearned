@@ -1,0 +1,35 @@
+site_name: Today I Learned
+site_description: Simple daily learning notes published automatically.
+site_url: https://USERNAME.github.io/REPO-NAME/
+repo_url: https://github.com/USERNAME/REPO-NAME
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - content.code.copy
+    - search.suggest
+    - search.highlight
+  language: en
+
+nav:
+  - Home: index.md
+  - TIL:
+      - Overview: til/index.md
+  - Guides:
+      - Prompt engineering basics: guides/prompt-engineering-basics.md
+  - References:
+      - Azure AI Links: references/azure-ai-links.md
+  - About: about.md
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - tables
+
+plugins:
+  - search

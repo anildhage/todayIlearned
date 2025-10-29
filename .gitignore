@@ -1,0 +1,37 @@
+# macOS
+.DS_Store
+
+# Node.js
+node_modules/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.env
+
+# Logs
+*.log
+
+# OS files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.swp
+*.bak
+*.tmp
+
+# General
+*.out
+*.class
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
