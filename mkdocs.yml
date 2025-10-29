@@ -18,7 +18,7 @@ theme:
 nav:
   - Home: index.md
   - TIL:
-      - Overview: til/2025-10-27-azure-computer-vision.md
+      - Overview: til/index.md
   - Guides:
       - Prompt engineering basics: guides/prompt-engineering-basics.md
   - References:
